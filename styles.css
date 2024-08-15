@@ -42,14 +42,52 @@ body {
   font-family:"Gilda display";
   font-style: normal;
   font-weight: 400;
-  font-size: 170px;
+  font-size: 10vw;
   line-height: 170px;
   position: absolute;
   text-align: center;
   padding: 80px;
-  width: 95%;
-  height: 40%;
+  width: 90%;
+  
 }
 span {
   color: #25A59E;
+}
+.blurry {
+  position: absolute;
+  width: 682px;
+  height: 682px;
+  top: 412px;
+  left: 329px;
+  background-color: #44D5CD;
+  border-radius: 341px;
+  border: 1px solid;
+  border-color: #EE8F39;
+  filter: blur(400px);
+}
+.circle-background {
+  display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 40px;
+    position: absolute;
+    top: 399px;
+    left: 167px;
+    border-radius: 1000px;
+    border: 1px solid;
+    border-color: #EE8F39;
+}
+.ecllip {
+  position: relative;
+    width: 925px;
+    height: 925px;
+    background-color: var(--orange-color);
+    border-radius: 462.5px;
+}
+.overlap img {
+  position: absolute;
+    width: 869px;
+    height: 458px;
+    top: 253px;
+    left: 235px;
 }
