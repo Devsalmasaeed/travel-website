@@ -30,5 +30,11 @@ body {
   top: 44px;
   }
 .text-wrapper {
-  
+  font-family:"Gilda display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 0.1em;
+  color: #25A59E;
 }
