@@ -38,3 +38,18 @@ body {
   letter-spacing: 0.1em;
   color: #25A59E;
 }
+.travel{
+  font-family:"Gilda display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 170px;
+  line-height: 170px;
+  position: absolute;
+  text-align: center;
+  padding: 80px;
+  width: 95%;
+  height: 40%;
+}
+span {
+  color: #25A59E;
+}
