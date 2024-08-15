@@ -12,3 +12,8 @@
     --black: #262626;
 }
 
+.navbar {
+  display: flex;
+  width: 100%;
+  
+}
