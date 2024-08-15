@@ -53,3 +53,11 @@ body {
 span {
   color: #25A59E;
 }
+.overlap {
+  width: 90%;
+  position: relative;
+}
+.overlap img {
+  max-width: 90%;
+  position: absolute;
+}
