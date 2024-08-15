@@ -61,3 +61,14 @@ span {
   max-width: 90%;
   position: absolute;
 }
+.blurry {
+  padding-top: 412px;
+
+}
+.circle-background {
+  padding-top: 199px;
+  gap: 10px;
+}
+.ecllip {
+  position: relative;
+}
