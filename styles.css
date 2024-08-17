@@ -68,6 +68,9 @@ span {
   padding-top: 205px;
   
 }
+.ecllip {
+  margin-top: 60px;
+}
 .view {
   padding-top: 10px;
 }
@@ -93,7 +96,21 @@ span {
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
+  margin-top: 30px;
 }
 .location {
   display: flex;
+  gap: 8px;
+}
+.container h4 {
+  font-family: "Urbanist";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.container h6 {
+  font-family: "Urbanist";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
 }
