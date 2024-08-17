@@ -1,17 +1,15 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 :root {
-    --orange-color: #EE8F39;
-    --light-blue: #25A59E;
-    --brand: #44D5CD;
-    --white: #FFFFFF;
-    --black: #262626;
+  --orange-color: #EE8F39;
+  --light-blue: #25A59E;
+  --brand: #44D5CD;
+  --white: #FFFFFF;
+  --black: #262626;
 }
-/* Default styles for desktops */
 body {
   font-size: 20px;
   background-color: white;
@@ -48,7 +46,7 @@ body {
   text-align: center;
   padding: 80px;
   width: 90%;
-  
+  height: 340px;
 }
 span {
   color: #25A59E;
@@ -60,15 +58,33 @@ span {
 .overlap img {
   max-width: 90%;
   position: absolute;
+  height: 500px;
+  left: 10%;
 }
 .blurry {
-  padding-top: 412px;
-
+  padding-top: 200px;
 }
 .circle-background {
-  padding-top: 199px;
-  gap: 10px;
+  padding-top: 205px;
+  
 }
-.ecllip {
-  position: relative;
+.view {
+  padding-top: 10px;
+}
+.content-1 {
+  margin-top: 570px;
+  text-align: center;
+}
+.content-1 h1 {
+  font-family: "Gilda display";
+  font-weight: 400;
+  font-size: 4vw;
+  line-height: 84px;
+}
+.content-1 p {
+  font-family: "Urbanist";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  
 }
