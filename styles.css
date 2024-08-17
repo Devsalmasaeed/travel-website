@@ -114,3 +114,50 @@ span {
   font-size: 18px;
   line-height: 32px;
 }
+.content-2 {
+  text-align: center;
+  gap: 24px;
+  height: 204px;
+  margin-top: 50px;
+}
+.content-2 h2 {
+  font-family: "Gilda display";
+  font-weight: 400;
+  font-size: 3vw;
+  line-height: 84px;
+}
+.content-2 p {
+  font-family: "Urbanist";
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 32px;
+}
+.container-2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.detail {
+  display: flex;
+  gap: 12px;
+  color: #25A59E;
+  justify-content: end;
+}
+.listcard-1 {
+  background-color: #FFFFFF;
+}
+.listcard-1 p {
+  font-family: "Gilda display";
+  font-weight: 400;
+  font-size: 1.5vw;
+  line-height: 62px;
+}
+.listcard-1 h5 {
+  font-family: "Urbanist";
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 32px;
+  color: #262626;
+}
+
+
