@@ -67,11 +67,9 @@ span {
 }
 .circle-background {
   padding-top: 205px;
-  
 }
 .ecllip {
   max-width: 40%;
-  
 }
 .view {
   padding-top: 10px;
@@ -281,6 +279,10 @@ span {
   gap: 26px;
   left: 9%;
 }
+.text-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
 .text-2 h1 {
   font-family: "Gilda display";
   font-weight: 400;
@@ -370,6 +372,7 @@ span {
   width: 90%;
   justify-content: space-between;
   margin-top: 25px;
+  gap: 30px;
   margin-bottom: 60px;
 }
 .icons {
