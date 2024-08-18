@@ -306,3 +306,17 @@ span {
 .look {
   margin-top: -460px;
 }
+.trip {
+  width: 90%;
+}
+.trip img {
+  max-width: 110%;
+}
+.trip p {
+  font-family: "Gilda display";
+  font-weight: 400;
+  font-size: 3.5vw;
+  line-height: 64px;
+  height: 168px;
+  text-align: center;
+}
