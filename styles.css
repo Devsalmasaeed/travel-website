@@ -271,3 +271,6 @@ span {
   white-space: nowrap;
   border-color: #FFFFFF;
 }
+.group {
+  display: flex;
+}
