@@ -352,3 +352,13 @@ span {
   color: #d9d9d9;
   border: 1px;
 }
+.best-agent {
+  margin-top: 50px;
+}
+.agent {
+  font-family: "Urbanist";
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 32px;
+  color: #595959;
+}
