@@ -134,13 +134,9 @@ span {
 }
 .listcard {
   display: flex;
-  align-items: flex-start;
-  gap: 28px;
-  position: relative;
-  align-self: stretch;
-  width: 90%;
-  flex: 0 0 auto;
-  left: 5%;
+  justify-content: center;
+  gap: 40px;
+
 }
 .card {
   align-items: flex-end;
@@ -205,7 +201,7 @@ span {
   font-family: "Gilda Display-Regular", Helvetica;
   font-weight: 400;
   color: #25A59E;
-  font-size: 20px;
+  font-size: 1vw;
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
@@ -213,7 +209,7 @@ span {
 }
 .listtop {
   position: absolute;
-  width: 332px;
+  width: 360px;
   height: 4px;
   top: 0;
   left: 0;
@@ -267,7 +263,7 @@ span {
   font-family: "Gilda Display-Regular", Helvetica;
   font-weight: 400;
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 1vw;
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
