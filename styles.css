@@ -347,3 +347,8 @@ span {
   border: solid 1px #25A59E;
   margin-top: 15px;
 }
+.divider img {
+  width: 100%;
+  color: #d9d9d9;
+  border: 1px;
+}
