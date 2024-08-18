@@ -273,7 +273,34 @@ span {
 }
 .group {
   display: flex;
-  margin-top: 90px;
+  margin-top: 300px;
   width: 90%;
   position: relative;
+  gap: 26px;
+  left: 9%;
+}
+.text-2 h1 {
+  font-family: "Gilda display";
+  font-weight: 400;
+  font-size: 3.5vw;
+  line-height: 54px;
+  height: 128px;
+  margin-top: -120px;
+}
+.text-2 p {
+  font-family: "Urbanist";
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 32px;
+  height: 90px;
+}
+.img-group {
+  position: relative;
+}
+.shape {
+  margin-top: -20px;
+  margin-left: 80px;
+}
+.look {
+  margin-top: -460px;
 }
