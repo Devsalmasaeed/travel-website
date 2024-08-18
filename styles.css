@@ -273,4 +273,7 @@ span {
 }
 .group {
   display: flex;
+  margin-top: 90px;
+  width: 90%;
+  position: relative;
 }
