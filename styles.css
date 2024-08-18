@@ -354,6 +354,7 @@ span {
 }
 .best-agent {
   margin-top: 50px;
+  margin-left: 150px;
 }
 .agent {
   font-family: "Urbanist";
@@ -361,4 +362,6 @@ span {
   font-size: 1vw;
   line-height: 32px;
   color: #595959;
+  width: 313px;
+  height: 64px;
 }
