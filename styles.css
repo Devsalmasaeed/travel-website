@@ -56,7 +56,7 @@ span {
   position: relative;
 }
 .overlap img {
-  max-width: 90%;
+  width: 90%;
   position: absolute;
   height: 500px;
   left: 10%;
@@ -69,7 +69,8 @@ span {
   
 }
 .ecllip {
-  margin-top: 60px;
+  max-width: 40%;
+  
 }
 .view {
   padding-top: 10px;
@@ -191,6 +192,7 @@ span {
   display: flex;
   align-self: flex-end;
   gap: 12px;
+  position: relative;
 }
 .text {
   position: relative;
