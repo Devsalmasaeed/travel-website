@@ -365,3 +365,13 @@ span {
   width: 313px;
   height: 64px;
 }
+.menu ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  font-family: "Urbanist";
+  font-weight: 600;
+  font-size: 1vw;
+  line-height: 32px;
+  color: #595959;
+}
