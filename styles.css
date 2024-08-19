@@ -52,30 +52,37 @@ body {
 span {
   color: #25A59E;
 }
-.overlap {
+.box {
   width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
   position: relative;
 }
-.overlap img {
-  width: 90%;
+.box img {
+  max-width: 90%;
   position: absolute;
-  height: 500px;
-  left: 10%;
+  height: auto;
+  left: 50px;
 }
 .blurry {
-  padding-top: 200px;
+  margin-top: 150px;
 }
-.circle-background {
-  padding-top: 205px;
+.circle {
+  width: 1000px;
+  margin-top: 250px;
 }
 .ecllip {
-  max-width: 40%;
+  width: 900px;
+  height: 400px;
+  margin-top: 45px;
 }
 .view {
-  padding-top: 10px;
+  height: 480px;
+  margin-top: -480px;
 }
 .content-1 {
-  margin-top: 570px;
+  margin-top: -50px;
   text-align: center;
 }
 .content-1 h1 {
