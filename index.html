@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desktopview</title>
+    <title>Responsive travel website</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -31,7 +31,7 @@
     </section>
     <section class="container">
       <div class="mirror">
-        <img src="assets/mirror.svg" alt="">
+        <img class="rotate" src="assets/mirror.svg" alt="" id="img">
         <h4>Mirror Lake</h4>
         <div class="location">
           <img src="assets/Location.svg" alt="">
@@ -39,7 +39,7 @@
         </div>
       </div>
       <div class="hot">
-        <img src="assets/hot.svg" alt="">
+        <img class="rotate" src="assets/hot.svg" alt="" id="img">
         <h4>Hot Air Ballon</h4>
         <div class="location">
           <img src="assets/Location.svg" alt="">
@@ -47,7 +47,7 @@
         </div>
       </div>
       <div class="lake">
-        <img src="assets/lake.svg" alt="">
+        <img class="rotate" src="assets/lake.svg" alt="" id="img">
         <h4>Oeschinen Lake</h4>
         <div class="location">
           <img src="assets/Location.svg" alt="">
@@ -55,7 +55,7 @@
         </div>
       </div>
       <div class="falls">
-        <img src="assets/falls.svg" alt="">
+        <img class="rotate" src="assets/falls.svg" alt="" id="img">
         <h4>Rhine Falls</h4>
         <div class="location">
           <img src="assets/Location.svg" alt="">
@@ -63,7 +63,7 @@
         </div>
       </div>
       <div class="sunter">
-        <img src="assets/sunter.svg" alt="">
+        <img class="rotate" src="assets/sunter.svg" alt="" id="img">
         <h4>Sunter Lake</h4>
         <div class="location">
           <img src="assets/Location.svg" alt="">
@@ -71,7 +71,7 @@
         </div>
       </div>
       <div class="Awan">
-        <img src="assets/awan.svg" alt="">
+        <img class="rotate" src="assets/awan.svg" alt="" id="img">
         <h4>Negeri di atas Awan</h4>
         <div class="location">
           <img src="assets/Location.svg" alt="">
@@ -133,7 +133,11 @@
     </section>
     <section class="trip">
       <p>Watch our entire trip <br> documentation</p>
-      <img src="assets/Video.svg" alt="">
+      <div class="trip-video">
+        <video autoplay loop muted play-inline class="background-clip">
+          <source src="assets/Travel.mp4" type="video/mp4">
+      </video>
+      </div>
     </section>
     <footer>
       <div class="best-offer">
