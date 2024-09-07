@@ -31,7 +31,7 @@ This project is built using HTML and CSS and provides a visually appealing and r
 - [Presentation Link](https://www.loom.com/share/76acbf3519014f50868b50684aebd646?sid=53c5168f-8269-4540-9238-7c714f82c97b)
 ## Live-demo
 
-- Check out the Live Demo of the Project: [Live Demo](https://devsalmasaeed.github.io/travel-website/)
+- Check out the Live Demo of the Project: [Live Demo](https://travel-website-s53z.onrender.com)
 
 ## Technologies Used
 
